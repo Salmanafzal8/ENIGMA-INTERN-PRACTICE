@@ -1,5 +1,13 @@
 body{
-    background-color: red;
-    color: blue;
+    background-color: white;
+    color:black;
 
+
+}
+div{
+    background-color: blue;
+}
+item{
+
+    background-color: yellow;
 }
