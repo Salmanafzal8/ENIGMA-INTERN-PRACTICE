@@ -3,24 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NavBar</title>
-    <style>
-    .webicon{
-        width: 50px;
-        height: 50px;
+    <title>Document</title>
+</head>
+<style>
+.logo{
+    position: fixed; top: 10px;
  
-        
+    size: 100px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 100;
+}
+.buttons{
 
-    }
-    .webicon:hover{
-        background-color: #666;
-    }
-    </style>
-    <body>
-    
-    <div class="webicon"></div>
-    <div class="navmenu"></div>
-    <div class="icon"></div>
+display: flex;
+justify-content: space-evenly;
+align-items: center ;
+    height: 100px;
+    flex-direction: row;
+    row-gap: 100px;
+flex-wrap: wrap;
+background-color: black;
+font-size: x-large;
+    color: rgb(253, 253, 253);
 
+
+}
+.clickicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color: #333333;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+
+</style>
+
+<body>
+
+    <div class="logo"> 
+        <img src="site logo.png" alt="">
+    </div>
+    <div class="buttons">
+    <div>
+        HOME
+    </div>
+        <div>
+            About
+        </div>
+            <div>Contact us 
+            </div>
+             <div>
+                Career
+            </div>
+<div class="clickicon">
+    <div>
+ <img src="favicon-16x16.png" alt=""> 
+ </div>
+</div>
+
+</div>
+</div>
 </body>
 </html>
