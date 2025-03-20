@@ -6,27 +6,27 @@
     <title>Document</title>
 </head>
 <style>
-    nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    background-color: #fefefe;
-    color: white;
-}
-
-
 .logo{
-    justify-items: auto;
-    font-size: 1.5em;
-    font-weight: bold;
-
-
+    position: fixed; top: 10px;
+ 
+    size: 100px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 100;
 }
 .buttons{
-       
-    display: flex;
-    justify-content: space-between;
-
+display: flex;
+justify-content: space-evenly;
+align-items: center ;
+    height: 100px;
+    flex-direction: row;
+    row-gap: 100px;
+flex-wrap: wrap;
+background-color: black;
+font-size: x-large;
+    color: rgb(253, 253, 253);
 
 
 }
@@ -34,20 +34,28 @@
 </style>
 
 <body>
-    
-    <nav>
+
     <div class="logo"> 
-        <img src="favicon-16x16.png" alt="">
+        <img src="site logo.png" alt="">
     </div>
     <div class="buttons">
-    <ul >
-<a href="home">HOME</a>
-<a href="about">About</a>
-<a href="contact-us">Contact us </a>
-<a href="career">career</a>
+    <div>
+        HOME
+    </div>
+        <div>
+            About
+        </div>
+            <div>Contact us 
+            </div>
+             <div>
+                career
+            </div>
+<div class="icon">
 
-    </ul>
+
+
+
 </div>
-    </nav>
+</div>
 </body>
 </html>
