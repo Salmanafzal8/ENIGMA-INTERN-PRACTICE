@@ -3,24 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NavBar</title>
-    <style>
-    .webicon{
-        width: 50px;
-        height: 50px;
- 
-        
+    <title>Document</title>
+</head>
+<style>
+    nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fefefe;
+    color: white;
+}
 
-    }
-    .webicon:hover{
-        background-color: #666;
-    }
-    </style>
-    <body>
+
+.logo{
+    justify-items: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+
+
+}
+.buttons{
+       
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+</style>
+
+<body>
     
-    <div class="webicon"></div>
-    <div class="navmenu"></div>
-    <div class="icon"></div>
+    <nav>
+    <div class="logo"> 
+        <img src="favicon-16x16.png" alt="">
+    </div>
+    <div class="buttons">
+    <ul >
+<a href="home">HOME</a>
+<a href="about">About</a>
+<a href="contact-us">Contact us </a>
+<a href="career">career</a>
 
+    </ul>
+</div>
+    </nav>
 </body>
 </html>
